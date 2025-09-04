@@ -9,6 +9,7 @@ import io
 import os
 
 app = FastAPI()
+# Ensure the ".venv" esist
 
 
 class SpacedCircleDrawer(CircleModuleDrawer):
